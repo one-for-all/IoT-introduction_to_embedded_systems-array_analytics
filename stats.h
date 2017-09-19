@@ -94,9 +94,9 @@ unsigned char find_maximum(unsigned char *array, unsigned int size);
 unsigned char find_minimum(unsigned char *array, unsigned int size);
 
 /**
- * @brief sort the array in descending order
+ * @brief sort the array in descending order and return it
  *
- * Sort the array from largest to smallest in-place
+ * Return a copy of the array sorted from largest to smallest
  *
  * @param array An array of unsigned chars
  * @param size The number of elements in the array
