@@ -101,8 +101,8 @@ unsigned char find_minimum(unsigned char *array, unsigned int size);
  * @param array An array of unsigned chars
  * @param size The number of elements in the array
  *
- * @return void
+ * @return A sorted array
  */
-void sort_array(unsigned char *array, unsigned int size);
+unsigned char* sort_array(unsigned char *array, unsigned int size);
 
 #endif /* __STATS_H__ */
